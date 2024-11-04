@@ -1,0 +1,18 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "insert-sample-data": "tsx insertSampleData.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.670.0",
+    "@faker-js/faker": "^9.0.3",
+    "tsx": "^4.19.1"
+  }
+}
